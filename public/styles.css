@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    /* This will center your container */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
+}
+
+.container form,
+.container .post {
+    margin-top: 20px;
+    width: 100%;
+    /* This will make them as wide as the container */
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    /* So padding doesn't affect width */
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}

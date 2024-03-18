@@ -1,0 +1,1 @@
+In terminal write: npm run dev
